@@ -1,0 +1,79 @@
+/*@import url('https://fonts.googleapis.com/ccs2?family=Outfit:wght@300&display=swap')*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav.all{
+    height: 100vh;
+    background-color: #202020;
+}
+
+nav.menu-lateral{
+    list-style-type: none;
+    width: 75px;
+    height: 100%;
+    background-color: #202020;
+    padding: 40px 0 40px 1%;
+    box-shadow: 3px 0 0 #ff0777;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: 1s;
+
+}
+
+.btn-expandir{
+    width: 100%;
+    padding-left: 10px;
+}
+
+.btn-expandir > i{
+    color: #fff;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+ul{
+    height: 100%;
+    list-style-type: none;
+    
+
+}
+
+ul li.item-menu a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 4%;
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    line-height: 40px;
+
+}
+
+ul li.item-menu a .txt-link{
+    margin-left: 40px;
+}
+
+ul li.item-menu a .icon > i {
+    font-size: 32px;
+    margin-left: 10px;
+
+}
+
+ul li.item-menu{
+    transition: 1s;
+}
+ul li.item-menu:hover {
+    background-color: #ff0777;
+}
+
+nav.menu-lateral:hover{
+    width: 300px;
+}
